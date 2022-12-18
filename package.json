@@ -1,0 +1,41 @@
+{
+  "name": "studenthelp_webapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^7.0.0",
+    "@types/node": "18.11.9",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "axios": "^1.2.0",
+    "cors": "^2.8.5",
+    "eslint": "8.28.0",
+    "eslint-config-next": "13.0.5",
+    "ical-js-parser": "^0.7.3",
+    "jwt-decode": "^3.1.2",
+    "next": "13.0.5",
+    "next-auth": "^4.17.0",
+    "react": "18.2.0",
+    "react-big-calendar": "^1.5.2",
+    "react-dom": "18.2.0",
+    "react-jwt": "^1.1.7",
+    "react-signalr": "^0.2.14",
+    "react-toastify": "^9.1.1",
+    "typescript": "4.9.3"
+  },
+  "devDependencies": {
+    "@types/globalize": "^1.5.2",
+    "@types/react-big-calendar": "^0.38.2",
+    "autoprefixer": "^10.4.13",
+    "file-loader": "^6.2.0",
+    "postcss": "^8.4.19",
+    "tailwind-scrollbar": "^2.0.1",
+    "tailwindcss": "^3.2.4"
+  }
+}

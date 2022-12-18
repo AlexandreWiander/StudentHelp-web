@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "SketchZone";
+  src: local("SketchZone"),
+  url("../public/fonts/Sketchzone.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Pangolin";
+  src: local("Pangolin"),
+  url("../public/fonts/Pangolin.ttf") format("truetype");
+}
+
+html,
+body {
+  min-height: 100vh;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: #092545;
+  background: #D9D9D9;
+  overflow: auto;
+}
+
+
+.font-face-sz{
+  font-family: "SketchZone";
+  font-weight: lighter;
+}
+
+.font-face-pg{
+  font-family: "Pangolin";
+  font-weight: lighter;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color-scheme: dark;
+}
+
